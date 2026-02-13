@@ -1,6 +1,27 @@
 # Reto de Automatización QA – FrontEnd (Sauce Demo)
 
 Este proyecto consiste en una suite de pruebas automatizadas E2E para el sitio web [Sauce Demo](https://www.saucedemo.com/). El objetivo es validar el flujo crítico de compra y el inicio de sesión utilizando **Playwright** con **Cucumber** y **TypeScript**.
+## 📂 Estructura del Proyecto
+
+```text
+automation-front-qa/
+├── features/                 # Archivos de prueba en lenguaje Gherkin (.feature)
+│   └── checkout.feature      # Escenarios de Login, Carrito y Compra
+├── src/
+│   ├── pages/                # Page Objects (Patrón POM - Mapeo de UI)
+│   │   ├── LoginPage.ts      # Lógica y selectores del Login
+│   │   └── ProductsPage.ts   # Lógica y selectores de Productos
+│   ├── step_definitions/     # Glue Code (Traducción de Gherkin a TypeScript)
+│   │   └── steps.ts          # Pasos ejecutables de los tests
+│   └── support/              # Configuración de Hooks y Utilidades
+│       └── hooks.ts          # Gestión del ciclo de vida (Browser/Context)
+├── .gitignore                # Archivos excluidos del repositorio
+├── cucumber.json             # Configuración del runner de Cucumber
+├── package.json              # Dependencias y scripts npm
+├── playwright.config.ts      # Configuración de Playwright
+├── tsconfig.json             # Configuración del compilador TypeScript
+└── README.md                 # Documentación de instalación y uso
+```
 
 ## 🚀 Stack Tecnológico
 
