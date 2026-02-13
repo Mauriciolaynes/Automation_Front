@@ -28,7 +28,7 @@ Sigue estos pasos para configurar el proyecto localmente:
 
 1.  **Clonar el repositorio** (o descargar el código):
     ```bash
-    git clone <URL_DE_TU_REPOSITORIO>
+    git clone https://github.com/Mauriciolaynes/Automation_Front
     ```
 
 2.  **Navegar a la carpeta del proyecto:**
