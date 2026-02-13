@@ -1,0 +1,20 @@
+{
+  "name": "reto-saucedemo-qa",
+  "version": "1.0.0",
+  "description": "Automatización Sauce Demo con Playwright y Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:report": "cucumber-js --format html:cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.58.2",
+    "playwright-bdd": "^8.4.2",
+    "ts-node": "^10.9.2"
+  }
+}
